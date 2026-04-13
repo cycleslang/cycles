@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1776118021 source:c:\users\zohan\onedrive\documents\cycles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libcycles/lexer.h"
+
+1776118106 c:\users\zohan\onedrive\documents\cycles\libcycles\lexer.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

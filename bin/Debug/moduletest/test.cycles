@@ -1,0 +1,7 @@
+extends Module
+{
+    void Log()
+    {
+        println("Logic from module executed.");
+    }
+}

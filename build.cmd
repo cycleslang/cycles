@@ -1,0 +1,1 @@
+gcc.exe -Wall -g  -c ./main.c -o obj\Debug\main.o

@@ -1,0 +1,21 @@
+import operatingio;
+
+extends OSInteractionTest
+{
+    void Main()
+    {
+        string filename = "logs.txt";
+
+        println("Initializing operatingio...");
+        
+        // Use the fake module to create a file
+        operatingio.createFile("test_output.txt");
+
+        // Use the fake module to run a subprocess (dir on Windows, ls on Linux)
+        println("Checking directory structure:");
+        operatingio.runProcess("dir");
+
+        println("Process Complete.");
+        hold;
+    }
+}

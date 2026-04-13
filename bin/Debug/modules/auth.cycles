@@ -1,0 +1,8 @@
+extends AuthModule
+{
+    void Init()
+    {
+        println("[SYSTEM] Handshaking with secure server...");
+        println("[SYSTEM] Authentication services: ONLINE");
+    }
+}
